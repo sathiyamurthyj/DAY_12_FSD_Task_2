@@ -1,0 +1,46 @@
+header {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 9vw;
+    line-height: 1.2;
+}
+
+#bgstyle div:first-child {
+    background-color: lightseagreen;
+}
+
+#bgstyle div:nth-child(n+2){
+    background-color: lightskyblue;
+} 
+
+.container-fluid aside {
+    float:left;
+    background-color: burlywood;
+}
+
+#demofield {
+    width: 40%;
+    float:left;
+    border:1px solid gray;
+    background-color:lightyellow;
+}
+
+#demofield span {
+    font-weight: bold;
+}
+
+#h1b {
+    width: 117%;    
+}
+
+#h1b span {
+    font-weight: bold;
+}
+
+#game {
+    width:115%;
+}
+
+aside .card-body {
+    background-color: rgb(213, 224, 237);
+}
